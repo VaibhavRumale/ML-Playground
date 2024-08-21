@@ -21,7 +21,7 @@ while True:
         max_new_tokens=10,
         temperature=0.7,
         top_p=0.9,
-        top_k=500
+        top_k=50
     )
     
     response = tokenizer.decode(outputs[0], skip_special_tokens=True, clean_up_tokenization_spaces=True)
